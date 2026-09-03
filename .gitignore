@@ -3,3 +3,5 @@ dist
 server/data/catalog.sqlite
 .env
 .DS_Store
+
+.vercel
