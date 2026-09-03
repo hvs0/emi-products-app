@@ -1,0 +1,136 @@
+{
+  "products": [
+    {
+      "slug": "iphone-17-pro",
+      "name": "iPhone 17 Pro",
+      "brand": "Apple",
+      "category": "Smartphones",
+      "badge": "NEW",
+      "description": "Flagship performance phone with a bright Pro display, premium finish, and EMI plans backed by eligible mutual fund holdings.",
+      "imageUrl": "https://cdn.verk.net/images/52/2_1011491-4000x4000.jpg",
+      "variants": [
+        {
+          "sku": "IPH17P-SIL-256",
+          "storage": "256GB",
+          "colorName": "Silver",
+          "colorHex": "#d8d8d2",
+          "finish": "Silver",
+          "mrp": 134900,
+          "price": 127400,
+          "imageUrl": "https://snapmint.com/_next/image?q=75&url=https%3A%2F%2Fimages.snapmint.com%2Fproduct_assets%2Fimages%2F001%2F154%2F806%2Flarge%2Fopen-uri20251021-2855301-v0364x%3F1761017558&w=640",
+          "plans": [
+            { "tenureMonths": 3, "monthlyPayment": 44967, "interestRate": 0, "cashback": 7500, "partnerFund": "Balanced Advantage Fund", "isPopular": true },
+            { "tenureMonths": 6, "monthlyPayment": 22483, "interestRate": 0, "cashback": 7500, "partnerFund": "Balanced Advantage Fund" },
+            { "tenureMonths": 12, "monthlyPayment": 11242, "interestRate": 0, "cashback": 7500, "partnerFund": "Large Cap Fund" },
+            { "tenureMonths": 24, "monthlyPayment": 5621, "interestRate": 0, "cashback": 7500, "partnerFund": "Large Cap Fund" },
+            { "tenureMonths": 36, "monthlyPayment": 4297, "interestRate": 10.5, "cashback": 7500, "partnerFund": "Flexi Cap Fund" },
+            { "tenureMonths": 48, "monthlyPayment": 3385, "interestRate": 10.5, "cashback": 7500, "partnerFund": "Flexi Cap Fund" },
+            { "tenureMonths": 60, "monthlyPayment": 2842, "interestRate": 10.5, "cashback": 7500, "partnerFund": "Hybrid Equity Fund" }
+          ]
+        },
+        {
+          "sku": "IPH17P-ORG-512",
+          "storage": "512GB",
+          "colorName": "Cosmic Orange",
+          "colorHex": "#f27b33",
+          "finish": "Cosmic Orange",
+          "mrp": 154900,
+          "price": 146900,
+          "imageUrl": "https://cdn.verk.net/images/52/2_1011491-4000x4000.jpg",
+          "plans": [
+            { "tenureMonths": 3, "monthlyPayment": 51633, "interestRate": 0, "cashback": 8000, "partnerFund": "Balanced Advantage Fund", "isPopular": true },
+            { "tenureMonths": 6, "monthlyPayment": 25817, "interestRate": 0, "cashback": 8000, "partnerFund": "Large Cap Fund" },
+            { "tenureMonths": 12, "monthlyPayment": 12908, "interestRate": 0, "cashback": 8000, "partnerFund": "Large Cap Fund" },
+            { "tenureMonths": 24, "monthlyPayment": 6472, "interestRate": 9.5, "cashback": 8000, "partnerFund": "Flexi Cap Fund" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "samsung-s24-ultra",
+      "name": "Galaxy S24 Ultra",
+      "brand": "Samsung",
+      "category": "Smartphones",
+      "badge": "BEST VALUE",
+      "description": "A productivity-focused Android flagship with large-screen performance and flexible mutual-fund-backed EMI options.",
+      "imageUrl": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=900&q=85",
+      "variants": [
+        {
+          "sku": "S24U-TIT-256",
+          "storage": "256GB",
+          "colorName": "Titanium Gray",
+          "colorHex": "#8a8986",
+          "finish": "Titanium Gray",
+          "mrp": 129999,
+          "price": 119999,
+          "imageUrl": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=900&q=85",
+          "plans": [
+            { "tenureMonths": 3, "monthlyPayment": 43333, "interestRate": 0, "cashback": 6000, "partnerFund": "Bluechip Fund", "isPopular": true },
+            { "tenureMonths": 6, "monthlyPayment": 21667, "interestRate": 0, "cashback": 6000, "partnerFund": "Bluechip Fund" },
+            { "tenureMonths": 12, "monthlyPayment": 10833, "interestRate": 0, "cashback": 6000, "partnerFund": "Index Fund" },
+            { "tenureMonths": 24, "monthlyPayment": 5524, "interestRate": 8.75, "cashback": 6000, "partnerFund": "Hybrid Equity Fund" }
+          ]
+        },
+        {
+          "sku": "S24U-VLT-512",
+          "storage": "512GB",
+          "colorName": "Titanium Violet",
+          "colorHex": "#596083",
+          "finish": "Titanium Violet",
+          "mrp": 139999,
+          "price": 128999,
+          "imageUrl": "https://images.unsplash.com/photo-1610792516286-524726503fb2?auto=format&fit=crop&w=900&q=85",
+          "plans": [
+            { "tenureMonths": 3, "monthlyPayment": 46666, "interestRate": 0, "cashback": 7000, "partnerFund": "Bluechip Fund", "isPopular": true },
+            { "tenureMonths": 6, "monthlyPayment": 23333, "interestRate": 0, "cashback": 7000, "partnerFund": "Index Fund" },
+            { "tenureMonths": 12, "monthlyPayment": 11667, "interestRate": 0, "cashback": 7000, "partnerFund": "Index Fund" },
+            { "tenureMonths": 36, "monthlyPayment": 4210, "interestRate": 10.25, "cashback": 7000, "partnerFund": "Flexi Cap Fund" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "oneplus-12",
+      "name": "OnePlus 12",
+      "brand": "OnePlus",
+      "category": "Smartphones",
+      "badge": "LIMITED",
+      "description": "A performance handset with a polished display, fast charging, and practical medium-tenure EMI plans.",
+      "imageUrl": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=900&q=85",
+      "variants": [
+        {
+          "sku": "OP12-BLK-256",
+          "storage": "256GB",
+          "colorName": "Silky Black",
+          "colorHex": "#1e2022",
+          "finish": "Silky Black",
+          "mrp": 69999,
+          "price": 64999,
+          "imageUrl": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=900&q=85",
+          "plans": [
+            { "tenureMonths": 3, "monthlyPayment": 23333, "interestRate": 0, "cashback": 3000, "partnerFund": "Short Duration Fund", "isPopular": true },
+            { "tenureMonths": 6, "monthlyPayment": 11667, "interestRate": 0, "cashback": 3000, "partnerFund": "Short Duration Fund" },
+            { "tenureMonths": 12, "monthlyPayment": 5833, "interestRate": 0, "cashback": 3000, "partnerFund": "Balanced Advantage Fund" },
+            { "tenureMonths": 24, "monthlyPayment": 3042, "interestRate": 9.25, "cashback": 3000, "partnerFund": "Hybrid Equity Fund" }
+          ]
+        },
+        {
+          "sku": "OP12-GRN-512",
+          "storage": "512GB",
+          "colorName": "Flowy Emerald",
+          "colorHex": "#477160",
+          "finish": "Flowy Emerald",
+          "mrp": 74999,
+          "price": 69999,
+          "imageUrl": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?auto=format&fit=crop&w=900&q=85",
+          "plans": [
+            { "tenureMonths": 3, "monthlyPayment": 25000, "interestRate": 0, "cashback": 3500, "partnerFund": "Short Duration Fund", "isPopular": true },
+            { "tenureMonths": 6, "monthlyPayment": 12500, "interestRate": 0, "cashback": 3500, "partnerFund": "Balanced Advantage Fund" },
+            { "tenureMonths": 12, "monthlyPayment": 6250, "interestRate": 0, "cashback": 3500, "partnerFund": "Balanced Advantage Fund" },
+            { "tenureMonths": 36, "monthlyPayment": 2300, "interestRate": 10.5, "cashback": 3500, "partnerFund": "Flexi Cap Fund" }
+          ]
+        }
+      ]
+    }
+  ]
+}

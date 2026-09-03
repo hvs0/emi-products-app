@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: emi-products-api
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: CLIENT_ORIGIN
+        value: "*"
+      - key: DATABASE_PATH
+        value: /opt/render/project/src/server/data/catalog.sqlite
