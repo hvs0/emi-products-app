@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import { ArrowRight, ChevronDown, ShieldCheck, Smartphone } from 'lucide-react';
+import { ArrowRight, CheckCircle2, ChevronDown, ShieldCheck, Smartphone } from 'lucide-react';
 import styles from './styles/App.module.css';
 
 const apiBase = import.meta.env.VITE_API_BASE_URL || '';
@@ -146,6 +146,7 @@ function App() {
         </aside>
 
         <section className={styles.detailsPanel}>
+          <div className={styles.eyebrow}>{product.brand} · {product.category}</div>
           <div className={styles.priceRow}>
             <div>
               <div className={styles.price}>{formatRupees(selectedVariant.price)}</div>
@@ -170,6 +171,21 @@ function App() {
           <p className={styles.subtitle}>EMI plans backed by mutual funds</p>
           <p className={styles.description}>{product.description}</p>
 
+          <div className={styles.summaryStrip}>
+            <span>
+              <strong>{selectedVariant.finish}</strong>
+              Finish
+            </span>
+            <span>
+              <strong>{selectedVariant.storage}</strong>
+              Storage
+            </span>
+            <span>
+              <strong>{selectedVariant.plans.length}</strong>
+              Plans
+            </span>
+          </div>
+
           <div className={styles.planList} role="radiogroup" aria-label="Choose EMI plan">
             {selectedVariant.plans.map((plan) => (
               <button
@@ -190,6 +206,11 @@ function App() {
                   <ShieldCheck size={15} />
                   {plan.partnerFund}
                 </span>
+                {plan.id === selectedPlan?.id && (
+                  <span className={styles.selectedMark} aria-hidden="true">
+                    <CheckCircle2 size={18} />
+                  </span>
+                )}
               </button>
             ))}
           </div>
