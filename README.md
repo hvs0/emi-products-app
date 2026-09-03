@@ -9,6 +9,13 @@ A simple full-stack product page for smartphones with selectable EMI plans backe
 - Database: SQLite using Node's built-in `node:sqlite`
 - Deployment target: Vercel free tier for frontend, Render free tier for backend
 
+## Live Links
+
+- Frontend: https://emi-products-app.vercel.app/products/iphone-17-pro
+- Backend health: https://emi-products-api.onrender.com/api/health
+- Backend products: https://emi-products-api.onrender.com/api/products
+- GitHub: https://github.com/hvs0/emi-products-app
+
 ## Local Setup
 
 ```bash
