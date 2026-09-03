@@ -132,7 +132,8 @@
 
 .phoneFrame {
   flex: 1;
-  min-height: 340px;
+  min-height: 0;
+  height: clamp(360px, 42vw, 500px);
   display: grid;
   place-items: center;
   border-radius: 8px;
@@ -141,7 +142,7 @@
 
 .phoneFrame img {
   width: min(92%, 430px);
-  aspect-ratio: 0.78;
+  max-height: 100%;
   object-fit: contain;
   border-radius: 6px;
   filter: drop-shadow(0 28px 30px rgba(0, 0, 0, 0.2));
@@ -415,7 +416,7 @@
   }
 
   .phoneFrame {
-    min-height: 300px;
+    height: clamp(260px, 62vw, 360px);
   }
 
   .priceRow {
@@ -436,6 +437,10 @@
 }
 
 @media (max-width: 520px) {
+  .phoneFrame {
+    height: clamp(230px, 72vw, 320px);
+  }
+
   .planMain {
     align-items: flex-start;
     flex-direction: column;
