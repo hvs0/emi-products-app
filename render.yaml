@@ -7,6 +7,6 @@ services:
     startCommand: npm start
     envVars:
       - key: CLIENT_ORIGIN
-        value: "*"
+        value: https://emi-products-app.vercel.app
       - key: DATABASE_PATH
         value: /opt/render/project/src/server/data/catalog.sqlite
